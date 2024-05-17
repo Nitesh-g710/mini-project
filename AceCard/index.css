@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(50deg, red, yellow, pink);
+    background-repeat: no-repeat;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+section{
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 10px 10px 10px black;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+.game{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 10px black;
+    width: 35%;
+    box-sizing: border-box;      
+}
+.game > span {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+div > button{
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 150, 100);
+    box-shadow: 5px 5px 5px black;
+    color: white;
+}
+div > button:active{
+    background-color: rgb(102, 255, 0);
+    box-shadow: none;
+}
+h6{
+    text-align: center;
+    font-size: 2rem;
+}
