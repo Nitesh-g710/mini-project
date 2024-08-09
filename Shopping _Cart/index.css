@@ -20,9 +20,9 @@ ul{
 }
 
 .fa-forward{
-    top: 50%;
+    top: 20rem;
     position: absolute;
-    right: 30%;
+    right: 25rem;
     color: red;
     font-size: 2rem;
     text-shadow: 2px 2px 5px black;   
@@ -35,8 +35,8 @@ ul{
 .fa-backward{
     position: absolute;
     text-shadow: 2px 2px 5px black;
-    top: 50%;
-    left: 30%;
+    top: 20rem;
+    left: 25rem;
     color: red;
     font-size: 2rem;
 }
