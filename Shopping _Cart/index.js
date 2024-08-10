@@ -70,14 +70,14 @@ back.addEventListener('click', (e)=>{
 })
 
 
-setInterval(() => {
-    if (index<arr.length-1) {
-        index++;
-    } else {
-        index=0;
-    }
-    name1.innerText = arr[index].name;
-    price.innerText = arr[index].price;
-    rate.innerText = arr[index].rate;
-    img.src = arr[index].src
-}, 5000);
+// setInterval(() => {
+//     if (index<arr.length-1) {
+//         index++;
+//     } else {
+//         index=0;
+//     }
+//     name1.innerText = arr[index].name;
+//     price.innerText = arr[index].price;
+//     rate.innerText = arr[index].rate;
+//     img.src = arr[index].src
+// }, 5000);
